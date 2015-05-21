@@ -15,7 +15,13 @@ describe("Square", function() {
 
   describe("Perimeter", function() {
     it("should be 8 for a square with side length 2", function() {
-      expect(square.area()).toEqual(8);
+      expect(square.perimeter()).toEqual(8);
+    });
+  });
+
+  describe("Draw", function() {
+    it("should be ... for a square with side length 2", function() {
+      expect(square.draw()).toEqual("**");
     });
   });
 
